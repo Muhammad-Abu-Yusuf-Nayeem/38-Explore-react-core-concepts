@@ -1,9 +1,13 @@
 export default function Singer({singer}){
     console.log(singer);
     return (
-        <div>
+        <div style={{
+        border: "3px solid aqua",
+        padding: "3px",
+        margin: "2px"
+        }}>
             <h3>Singer: {singer.name}</h3>
-            <p>age: {singer.age}</p>
+            <h4>age: {singer.age}</h4>
         </div>
     )
 }
